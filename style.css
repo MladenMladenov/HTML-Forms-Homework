@@ -1,0 +1,111 @@
+body{
+    background: #EEEEEE;
+}
+#wrapper{
+    background:#EEEEEE;
+    font-family: Verdana, sans-serif;
+
+}
+#wrapper>h2{
+    font-size: 20px;
+    color:#284868;
+
+}
+#wrapper p{
+    font-size: 12px;
+    color: #939393;
+}
+#register{
+    display:inline-block;
+    width:300px;
+    height: 250px;
+    background: #EEEEEE;
+    float:left;
+    padding-left: 5px;
+
+}
+#register:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+#registered{
+    display:inline-block;
+    width:300px;
+    height: 255px;
+    background: #234465;
+    padding-left: 5px;
+}
+input[type="password"], input[type="text"], input[type="email"]{
+    width:270px;
+    height:30px;
+
+}
+#register-button{
+    width:140px;
+    height:30px;
+    border:2px solid #284868;
+    color:#284868;
+    float:right;
+    margin-right: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #EEEEEE;
+
+}
+input{
+    margin:7px;
+    padding-left: 5px;
+}
+#login-button{
+    width:130px;
+    height:30px;
+    border:2px solid #E2900D;
+    color:#EAEEF1;
+    float:right;
+    margin-right: 13px;
+    font-weight: bold;
+    background: #234465;
+    cursor: pointer;
+
+}
+#registered>form>a{
+    color:#ffffff;
+    float:right;
+    margin:13px;
+    font-size:13px;
+    margin-top:0px;
+    text-decoration: none;
+    border-bottom:1px solid white;
+}
+#registered>form>a:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+#registered>legend{
+    text-transform: uppercase;
+    color:white;
+    font-family: Verdana, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    margin-top:5px;
+    margin-left:5px;
+}
+#register legend{
+    text-transform: uppercase;
+    color:gray;
+    font-family: Verdana, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    margin-top:5px;
+    margin-left:5px;
+}
+#register-span{
+    color:#234465;
+}
+#checkbox-span{
+    color:#ffffff;
+    font-size:13px;
+
+}
